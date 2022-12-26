@@ -46,6 +46,7 @@ body {
 	background-position-x: center;
 	position: relative;
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 .header {
@@ -1764,6 +1765,7 @@ body {
 		@media (max-width: $r_mob_500) {
 			display: block;
 			text-align: center;
+			overflow: hidden;
 		}
 		&__link {
 			padding: 2.4rem 0;
