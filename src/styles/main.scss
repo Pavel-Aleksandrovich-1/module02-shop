@@ -683,13 +683,13 @@ body {
 		}
 		@media (max-width: $r_tab_900) {
 			top: 7.6rem;
-			right: -40px;
+			right: 0px;
 			width: 67px;
 		}
 		@media (max-width: $r_mob_350) {
 			top: 8.6rem;
-			right: -45px;
-			width: 81px;
+			right: 0px;
+			width: 60px;
 		}
 	}
 	&__cucumber {
@@ -707,10 +707,10 @@ body {
 			left: 30rem;
 		}
 		@media (max-width: $r_mob_350) {
-			left: 279px;
+			left: 277px;
 			width: 7.5rem;
 			top: 56.3rem;
-			transform: rotate(87deg);
+			transform: rotate(88deg);
 		}
 	}
 	&__pepper {
