@@ -210,7 +210,7 @@ body {
 		align-items: center;
 		gap: 19px;
 		position: absolute;
-		right: -43px;
+		right: -12px;
 		bottom: -122px;
 		border-radius: 20px;
 		background-color: #fff;
@@ -230,7 +230,7 @@ body {
 			border-bottom: 17px solid #fff;
 			position: absolute;
 			top: -24px;
-			right: 55px;
+			right: 23px;
 		}
 	}
 	&__cover {
@@ -592,7 +592,7 @@ body {
 		box-shadow: 0 0 33px 0 rgb(39 48 15 / 30%);
 		box-sizing: border-box;
 		visibility: hidden;
-		&_1 {
+		&-1 {
 			left: 0;
 			top: 100px;
 			@media (max-width: $r_desc_1350) {
@@ -603,14 +603,14 @@ body {
 				display: none;
 			}
 		}
-		&_2 {
+		&-2 {
 			right: 348px;
 			bottom: -154px;
 			@media (max-width: $r_desc_1120) {
 				display: none;
 			}
 		}
-		&_3 {
+		&-3 {
 			top: 253px;
 			right: 0px;
 			@media (max-width: $r_desc_1350) {
